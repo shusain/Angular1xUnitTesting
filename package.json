@@ -1,0 +1,55 @@
+{
+  "name": "angular1xtesting",
+  "version": "1.0.0",
+  "description": "Testing angular 1.x code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lab.intellectual-tech.com/websites/kirov.git"
+  },
+  "keywords": [
+    "angularjs",
+    "testing"
+  ],
+  "author": "Shaun Husain",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.2.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-filter": "^5.1.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-rev": "^8.1.1",
+    "gulp-stats": "0.0.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "gulp-util": "^3.0.8",
+    "jasmine-core": "^2.8.0",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "path": "^0.12.7",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.13",
+    "angular": "^1.6.8",
+    "angular-credit-cards": "git+https://github.com/shusain/angular-credit-cards",
+    "angular-mocks": "^1.6.8",
+    "ng-meta": "^1.0.2"
+  }
+}
